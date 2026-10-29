@@ -19,6 +19,8 @@ const pin = (name: string, isMe: boolean) =>
                 </div>`
     })
 
+console.log('tables:', tables)
+console.log('user table:', tables?.user)
 
 function FriendMap() {
     const { isActive, identity } = useSpacetimeDB()
